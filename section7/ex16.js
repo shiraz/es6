@@ -10,6 +10,7 @@ Hint: Use the 'reduce' and 'find' helpers.
 
 function unique(array) {
   return array.reduce((accumulator, currentInt) => {
+    
     if (!accumulator.includes(currentInt)) {
       accumulator.push(currentInt);
     }
